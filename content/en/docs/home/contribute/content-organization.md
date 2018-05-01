@@ -19,7 +19,7 @@ The documentation side menu, the documentation page browser etc. are listed usin
 
 Given that, if you want to move a page or a section up, set a weight in the page's front matter:
 
-```markdown
+```yaml
 title: My Page
 weight: 10
 ```
@@ -34,7 +34,7 @@ For page weights, it can be smart not to use 1, 2, 3 ..., but some other interva
 
 The `Documentation` main menu is built from the sections below `docs/` with the `main_menu` flag set in front matter of the `_index.md` section content file:
 
-```markdown
+```yaml
 main_menu: true
 ```
 
@@ -42,7 +42,7 @@ main_menu: true
 Note that the link title is fetched from the page's `linkTitle`, so if you want it to be something different than the title, change it in the content file:
 
 
-```markdown
+```yaml
 main_menu: true
 title: Page Title
 linkTitle: Title used in links
@@ -62,7 +62,7 @@ It will show all sections and their pages.
 If you want a section or page to not be listed, set the `toc_hide` flag in front matter:
 
 
-```markdown
+```yaml
 toc_hide: true
 ```
 
@@ -72,7 +72,7 @@ The page browser on the documentation home page is built from all sections and p
 
 If you want a section or page to not be listed, set the `toc_hide` flag in front matter:
 
-```markdown
+```yaml
 toc_hide: true
 ```
 
