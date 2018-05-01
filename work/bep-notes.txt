@@ -40,6 +40,11 @@ Files to delete:
 ./404.md
 
 
+netlify.toml:
+
+baseURL
+
+
 Notes
 -----------
 
