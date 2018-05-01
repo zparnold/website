@@ -6,7 +6,29 @@ weight: 42
 
 This site uses Hugo. In Hugo, [content organization](https://gohugo.io/content-management/organization/) is a core concept.
 
-## Page Lists 
+Also see:
+
+* [Custom Hugo Shortcodes](/docs/home/contribute/includes)
+* [Style Guide](/docs/home/contribute/style-guide)
+
+## Page Lists
+
+### Page Order
+
+The documentation side menu, the documentation page browser etc. are listed using Hugo's default sort order, which sorts by weight (from 1), date (newest first) and finally by the link title.
+
+Given that, if you want to move a page or a section up, set a weight in the page's front matter:
+
+```markdown
+title: My Page
+weight: 10
+```
+
+
+{{% note %}}
+For page weights, it can be smart not to use 1, 2, 3 ..., but some other interval, say 10, 20, 30... This allows you to insert pages where you want later.
+{{% /note %}}
+
 
 ### Documentation Main Menu
 
