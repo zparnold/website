@@ -59,7 +59,7 @@ Create this Secret, naming it `regcred`:
 
 where:
 
-* `<your-registry-server>` is your Private Docker Registry FQDN.
+* `<your-registry-server>` is your Private Docker Registry FQDN. (https://index.docker.io/v1/ for DockerHub)
 * `<your-name>` is your Docker username.
 * `<your-pword>` is your Docker password.
 * `<your-email>` is your Docker email.
@@ -135,7 +135,7 @@ Create a Pod that uses your Secret, and verify that the Pod is running:
 
 * Learn more about [Secrets](/docs/concepts/configuration/secret/).
 * Learn more about [using a private registry](/docs/concepts/containers/images/#using-a-private-registry).
-* See [kubectl create secret docker-registry](/docs/user-guide/kubectl/{{< param "version" >}}/#-em-secret-docker-registry-em-).
+* See [kubectl create secret docker-registry](/docs/reference/generated/kubectl/kubectl-commands/#-em-secret-docker-registry-em-).
 * See [Secret](/docs/reference/generated/kubernetes-api/{{< param "version" >}}/#secret-v1-core).
 * See the `imagePullSecrets` field of [PodSpec](/docs/reference/generated/kubernetes-api/{{< param "version" >}}/#podspec-v1-core).
 

@@ -207,7 +207,7 @@ type PodSpec struct {
 ## Use a JSON merge patch to update a Deployment
 
 A strategic merge patch is different from a
-[JSON merge patch](https://tools.ietf.org/html/rfc6902).
+[JSON merge patch](https://tools.ietf.org/html/rfc7386).
 With a JSON merge patch, if you
 want to update a list, you have to specify the entire new list. And the new list completely
 replaces the existing list.
@@ -317,12 +317,12 @@ kubectl patch deployment patch-demo --patch '{"spec": {"template": {"spec": {"co
 In this exercise, you used `kubectl patch` to change the live configuration
 of a Deployment object. You did not change the configuration file that you originally used to
 create the Deployment object. Other commands for updating API objects include
-[kubectl annotate](/docs/user-guide/kubectl/{{< param "version" >}}/#annotate),
-[kubectl edit](/docs/user-guide/kubectl/{{< param "version" >}}/#edit),
-[kubectl replace](/docs/user-guide/kubectl/{{< param "version" >}}/#replace),
-[kubectl scale](/docs/user-guide/kubectl/{{< param "version" >}}/#scale),
+[kubectl annotate](/docs/reference/generated/kubectl/kubectl-commands/#annotate),
+[kubectl edit](/docs/reference/generated/kubectl/kubectl-commands/#edit),
+[kubectl replace](/docs/reference/generated/kubectl/kubectl-commands/#replace),
+[kubectl scale](/docs/reference/generated/kubectl/kubectl-commands/#scale),
 and
-[kubectl apply](/docs/user-guide/kubectl/{{< param "version" >}}/#apply).
+[kubectl apply](/docs/reference/generated/kubectl/kubectl-commands/#apply).
 
 {{% /capture %}}
 

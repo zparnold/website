@@ -138,7 +138,7 @@ kubectl exec -it my-pod --container main-app -- /bin/bash
 
 {{% capture whatsnext %}}
 
-* [kubectl exec](/docs/user-guide/kubectl/{{< param "version" >}}/#exec)
+* [kubectl exec](/docs/reference/generated/kubectl/kubectl-commands/#exec)
 
 {{% /capture %}}
 

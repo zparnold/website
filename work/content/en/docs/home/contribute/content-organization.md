@@ -92,7 +92,7 @@ Some important notes to the files in the bundles:
 
 * For translated bundles, any missing non-content files will be inherited from languages above. This avoids duplication.
 * All the files in a bundle are what Hugo calls `Resources` and you can provide metadata per language, such as parameters and title, even if it does not supports front matter (YAML files etc.). See [Page Resources Metadata](https://gohugo.io/content-management/page-resources/#page-resources-metadata).
-* The value you get from `.RelPermalink` from a `Resource is page-relative.
+* The value you get from `.RelPermalink` from a `Resource` is page-relative.
 
 
 

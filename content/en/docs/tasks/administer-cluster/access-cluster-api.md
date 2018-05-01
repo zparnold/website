@@ -56,7 +56,7 @@ Run it like this:
 $ kubectl proxy --port=8080 &
 ```
 
-See [kubectl proxy](/docs/user-guide/kubectl/{{< param "version" >}}/#proxy) for more details.
+See [kubectl proxy](/docs/reference/generated/kubectl/kubectl-commands/#proxy) for more details.
 
 Then you can explore the API with curl, wget, or a browser, like so:
 
@@ -178,7 +178,7 @@ libraries can automatically discover the API server and authenticate.
 
 While running in a Pod, the Kubernetes apiserver is accessible via a Service named
 `kubernetes` in the `default` namespace. Therefore, Pods can use the 
-`kubernetes.default` hostname to query the API server. Official client libraries
+`kubernetes.default.svc` hostname to query the API server. Official client libraries
 do this automatically.
 
 From within a Pod, the recommended way to authenticate to the API server is with a

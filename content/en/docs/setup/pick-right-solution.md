@@ -86,6 +86,8 @@ few commands.
 
 * [IBM Cloud Private](https://www.ibm.com/cloud-computing/products/ibm-cloud-private/)
 * [Kubermatic](https://www.loodse.com)
+* [SUSE CaaS Platform](https://www.suse.com/products/caas-platform)
+* [SUSE Cloud Application Platform](https://www.suse.com/products/cloud-application-platform/)
 
 # Custom Solutions
 
@@ -129,7 +131,7 @@ These solutions are combinations of cloud providers and operating systems not co
 * [Fedora (Single Node)](/docs/getting-started-guides/fedora/fedora_manual_config/)
 * [Fedora (Multi Node)](/docs/getting-started-guides/fedora/flannel_multi_node_cluster/)
 * [Kubernetes on Ubuntu](/docs/getting-started-guides/ubuntu/)
-* [CoreOS on AWS or GCE](/docs/getting-started-guides/coreos/)
+* [CoreOS](/docs/getting-started-guides/coreos/)
 
 ## Integrations
 

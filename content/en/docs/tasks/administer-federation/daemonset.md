@@ -4,6 +4,9 @@ content_template: templates/task
 ---
 
 {{% capture overview %}}
+
+{{< include "federation-current-state.md" >}}
+
 This guide explains how to use DaemonSets in a federation control plane.
 
 DaemonSets in the federation control plane ("Federated Daemonsets" in

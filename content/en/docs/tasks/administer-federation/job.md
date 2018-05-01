@@ -4,6 +4,9 @@ content_template: templates/task
 ---
 
 {{% capture overview %}}
+
+{{< include "federation-current-state.md" >}}
+
 This guide explains how to use jobs in the federation control plane.
 
 Jobs in the federation control plane (referred to as "federated jobs" in

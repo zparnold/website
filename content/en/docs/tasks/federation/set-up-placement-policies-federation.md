@@ -5,6 +5,8 @@ content_template: templates/task
 
 {{% capture overview %}}
 
+{{< include "federation-current-state.md" >}}
+
 This page shows how to enforce policy-based placement decisions over Federated
 resources using an external policy engine.
 

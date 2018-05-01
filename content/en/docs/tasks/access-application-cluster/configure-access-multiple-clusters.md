@@ -337,7 +337,7 @@ export KUBECONFIG=$KUBECONFIG_SAVED
 {{% capture whatsnext %}}
 
 * [Organizing Cluster Access Using kubeconfig Files](/docs/concepts/configuration/organize-cluster-access-kubeconfig/)
-* [kubectl config](/docs/user-guide/kubectl/{{< param "version" >}}/)
+* [kubectl config](/docs/reference/generated/kubectl/kubectl-commands/)
 
 {{% /capture %}}
 
