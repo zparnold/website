@@ -1,5 +1,5 @@
 ---
-layout: docwithnav
+
 title: Kubernetes Security and Disclosure Information
 aliases: [/security/]
 approvers:

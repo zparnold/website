@@ -610,6 +610,9 @@ Developers" term_id="platform-developer" %}`, `{% glossary_tooltip text="Platfor
 			// Create alias for the security page
 			s = strings.Replace(s, "permalink: /security/", "aliases: [/security/]", 1)
 
+			// Some now superflous layout
+			s = strings.Replace(s, "layout: docwithnav", "", 1)
+
 			return s, nil
 		},
 

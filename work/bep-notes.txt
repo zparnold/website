@@ -8,10 +8,7 @@ Andrew: * /netlify_noindex_headers.txt? => static/_headers?
 
 Current
 -----------
-* Remove superflous "layout:"
 * Finish 404 checker and diff
-* Must wait, Re Chinese PR Merge master (font, header etc.)
-* CSS toc: http://localhost:1313/docs/tutorials/
 * content/en/docs/reference/generated
 * 301... /docs/getting-started-guides/ /docs/setup/pick-right-solution/ DISABLED FOR NOW
 * Commit count: 153 (excluding squashes)
@@ -63,6 +60,8 @@ Not done
 Suggestions for future
 -----------
 
+* ToC has some extra list disks on some pages because of some odd headline hiearchy.
+
 * Avoid scrolling to top on window.location.reload() in Chrome;
 * Consider moving cannonical-tags to > Hugo taxonomies and in general use Hugo taxonomies for "indexing content". Also see Hugo's Related Content feature.
 * Use Hugo leaf bundles for tutorials; shared resources (YAML files, images) between languages, simpler maintainance etc.
@@ -71,15 +70,6 @@ Suggestions for future
 * Archetypes. Also see https://github.com/gohugoio/hugo/issues/4535 for a directory based approach.
 * CSS chroma. 
 
-Diffing with kubernetes.io
 
----------------------------
-
-https://k8sio-hugo-migration.netlify.com/blog/2015/03/31/paricipate-in-kubernetes-user/
-https://kubernetes.io/blog/2015/03/paricipate-in-kubernetes-user
-
-https://k8sio-hugo-migration.netlify.com/blog/2018/03/02/first-beta-version-of-kubernetes-1-10/
-https://kubernetes.io/blog/2018/03/first-beta-version-of-kubernetes-1-10
-2018-03-00-First-Beta-Version-Of-Kubernetes-1-10.md
 
 
